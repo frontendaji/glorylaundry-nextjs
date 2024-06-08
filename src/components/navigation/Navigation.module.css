@@ -1,0 +1,123 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem;
+}
+
+.nav .logo{
+    z-index: 2;
+}
+
+.nav .logo h1{
+    font-size: 1.2em;
+}
+
+.nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.nav >  ul > li > a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    gap: 7px;
+    z-index: 2;
+}
+
+.menu span{
+    display: inline-block;
+    width: 1.7rem;
+    height: 1px;
+    background-color: var(--text-color);
+}
+
+.navMobile{
+    position: absolute;
+    left: -100vw;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--background-color);
+}
+
+.navMobile >  ul{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    list-style: none;
+}
+
+.navMobile > ul > li > a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.navMobileActive{
+    display: flex;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width:576px) {
+
+    .nav > ul{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:786px){
+
+    .nav{
+        padding: 1.5rem;
+    }
+
+    .nav > ul{
+        display: none;
+    }
+    
+    .menu{
+        display: flex;
+    }
+
+    .navMobile > ul > li > a{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width:786px) and (max-width:1024px){
+
+    .nav{
+        padding: 2rem;
+    }
+
+
+    .nav > ul{
+        display: none;
+    }
+    
+    .menu{
+        display: flex;
+    }
+
+    .navMobile > ul > li > a{
+        font-size: 1.3em;
+    }
+}
