@@ -67,9 +67,9 @@
 }
 
 .navMobileActive{
-    display: flex;
     left: 0;
     transition: all 0.3s ease-in-out;
+    background-color: var(--background-color);
 }
 
 @media screen and (max-width:576px) {
@@ -79,6 +79,10 @@
     }
 
     .menu{
+        display: flex;
+    }
+
+    .navMobile{
         display: flex;
     }
 }
@@ -94,6 +98,10 @@
     }
     
     .menu{
+        display: flex;
+    }
+
+    .navMobile{
         display: flex;
     }
 
@@ -114,6 +122,10 @@
     }
     
     .menu{
+        display: flex;
+    }
+
+    .navMobile{
         display: flex;
     }
 

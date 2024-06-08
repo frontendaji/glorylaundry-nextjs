@@ -10,6 +10,10 @@ export default function Navigation() {
     setNavMobileActive(!isNavMobileActive);
     };
 
+    const handleNavItemClick = () => {
+        setNavMobileActive(false); // Atur state kembali ke false saat elemen li diklik
+    }
+
     return(
         <nav className={Styles.nav}>
             <div className={Styles.logo}>
@@ -40,19 +44,19 @@ export default function Navigation() {
             <div className={`${Styles.navMobile} ${isNavMobileActive ? Styles.navMobileActive : ''}`}>
                 <ul>
                     <li>
-                        <Link href="/">Beranda</Link>
+                        <Link href="/" onClick={handleNavItemClick}>Beranda</Link>
                     </li>
                     <li>
-                        <Link href="/">Tentang Kami</Link>
+                        <Link href="/" onClick={handleNavItemClick}>Tentang Kami</Link>
                     </li>
                     <li>
-                        <Link href="/">Layanan</Link>
+                        <Link href="/" onClick={handleNavItemClick}>Layanan</Link>
                     </li>
                     <li>
-                        <Link href="/">Testimoni</Link>
+                        <Link href="/" onClick={handleNavItemClick}>Testimoni</Link>
                     </li>
                     <li>
-                        <Link href="/">Kontak</Link>
+                        <Link href="/" onClick={handleNavItemClick}>Kontak</Link>
                     </li>
                 </ul>
             </div>
