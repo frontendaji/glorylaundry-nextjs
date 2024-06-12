@@ -5,7 +5,7 @@
 
 
 .hero{
-    padding: 15rem 1rem;
+    padding: 14rem 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -70,16 +70,19 @@
         justify-content: center;
         align-items: center;
         gap: 3rem;
-        border: 1px solid black;
         padding: 5rem 1rem;
     }
 
     .heroText > h1{
-        font-size: 2em;
+        font-size: 1.7em;
+    }
+
+    .heroText > p{
+        font-size: 0.8em;
     }
 
     .heroButton > button{
-        padding: 0.9rem 3rem;
+        padding: 0.9rem 2.5rem;
     }
 
     .heroImages > img{

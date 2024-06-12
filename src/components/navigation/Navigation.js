@@ -11,7 +11,7 @@ export default function Navigation() {
     };
 
     const handleNavItemClick = () => {
-        setNavMobileActive(false); // Atur state kembali ke false saat elemen li diklik
+        setNavMobileActive(false); 
     }
 
     return(
@@ -24,16 +24,16 @@ export default function Navigation() {
                     <Link href="/">Beranda</Link>
                 </li>
                 <li>
-                    <Link href="/">Tentang Kami</Link>
+                    <Link href="/tentang">Tentang Kami</Link>
                 </li>
                 <li>
-                    <Link href="/">Layanan</Link>
+                    <Link href="/layanan">Layanan</Link>
                 </li>
                 <li>
-                    <Link href="/">Testimoni</Link>
+                    <Link href="/testimoni">Testimoni</Link>
                 </li>
                 <li>
-                    <Link href="/">Kontak</Link>
+                    <Link href="/kontak">Kontak</Link>
                 </li>
             </ul>
             <div className={Styles.menu} onClick={toggleNavMobile}>
