@@ -37,29 +37,29 @@ export default function TestimoniSection() {
             >
                 <SwiperSlide>
                     <div className={Styles.card}>
-                        <p>"Layanan laundry kiloan di Glory Laundry sangat memuaskan. Pakaian saya selalu bersih dan wangi. Pelayanan yang cepat dan ramah membuat saya menjadi pelanggan setia."</p>
+                        <p>&quot;Layanan laundry kiloan di Glory Laundry sangat memuaskan. Pakaian saya selalu bersih dan wangi. Pelayanan yang cepat dan ramah membuat saya menjadi pelanggan setia.&quot;</p>
                         <h3>– Siti Rahmawati</h3>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.card}>
-                        <p>"Saya sering menggunakan layanan laundry kilat di Glory Laundry ketika saya butuh pakaian bersih dalam waktu singkat. Mereka selalu tepat waktu dan hasilnya sangat memuaskan."</p>
+                        <p>&quot;Saya sering menggunakan layanan laundry kilat di Glory Laundry ketika saya butuh pakaian bersih dalam waktu singkat. Mereka selalu tepat waktu dan hasilnya sangat memuaskan.&quot;</p>
                         <h3>– Andi Wijaya</h3>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.card}>
-                        <p>""Glory Laundry menawarkan layanan yang sangat berkualitas. Saya suka dengan laundry satuan mereka karena perhatian ekstra yang diberikan pada setiap pakaian. Hasilnya selalu rapi dan wangi."</p>
+                        <p>&quot;Glory Laundry menawarkan layanan yang sangat berkualitas. Saya suka dengan laundry satuan mereka karena perhatian ekstra yang diberikan pada setiap pakaian. Hasilnya selalu rapi dan wangi.&quot;</p>
                         <h3>– Budi Santoso</h3>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={Styles.card}>
-                        <p>"Layanan laundry kiloan di Glory Laundry sangat memuaskan. Pakaian saya selalu bersih dan wangi. Pelayanan yang cepat dan ramah membuat saya menjadi pelanggan setia."</p>
+                        <p>&quot;Layanan laundry kiloan di Glory Laundry sangat memuaskan. Pakaian saya selalu bersih dan wangi. Pelayanan yang cepat dan ramah membuat saya menjadi pelanggan setia.&quot;</p>
                         <h3>– Siti Rahmawati</h3>
                     </div>
                 </SwiperSlide>
-                ...
+                {/* Add more SwiperSlide components as needed */}
             </Swiper>
         </section>
     )
