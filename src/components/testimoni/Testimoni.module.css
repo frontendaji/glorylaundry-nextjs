@@ -1,5 +1,5 @@
 .testimoniSection{
-    padding: 15rem 1rem;
+    padding: 9rem 1rem;
 }
 
 .testimoniText{
@@ -47,6 +47,10 @@
 
     .testimoniText > p{
         font-size: 0.8em;
+    }
+
+    .card{
+        padding: 2rem;
     }
 
 

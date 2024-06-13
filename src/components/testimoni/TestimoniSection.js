@@ -14,9 +14,27 @@ export default function TestimoniSection() {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={3}
+                breakpoints={{
+                    320: {  // untuk layar mobile dengan lebar 320px atau lebih besar
+                        slidesPerView: 1,
+                        spaceBetween: 10
+                    },
+                    640: {  // untuk layar mobile dengan lebar 640px atau lebih besar
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    },
+                    768: {  // untuk layar tablet dengan lebar 768px atau lebih besar
+                        slidesPerView: 2,
+                        spaceBetween: 30
+                    },
+                    1024: {  // untuk layar desktop dengan lebar 1024px atau lebih besar
+                        slidesPerView: 3,
+                        spaceBetween: 40
+                    },
+                }}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
-                >
+            >
                 <SwiperSlide>
                     <div className={Styles.card}>
                         <p>"Layanan laundry kiloan di Glory Laundry sangat memuaskan. Pakaian saya selalu bersih dan wangi. Pelayanan yang cepat dan ramah membuat saya menjadi pelanggan setia."</p>
