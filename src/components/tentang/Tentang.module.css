@@ -1,0 +1,94 @@
+.tentangSection{
+    padding: 15rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tentangText{
+    max-width: 600px;
+}
+
+.tentangText > h1{
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+.cardSection{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card{
+    width: 260px;
+    max-width: 260px;
+    background-color: var(--background-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+
+.card h3{
+    color: var(--accent-color);
+}
+
+.card p{
+    font-size: 0.9em;
+    max-width: 8rem;
+}
+
+@media screen and (max-width:576px){
+  
+    .tentangSection{
+        padding: 5rem 1rem;
+    }
+
+    .tentangText > h1{
+        font-size: 1.7em;
+    }
+
+    .tentangText > p{
+        font-size: 0.8em;
+    }
+
+    .card p{
+        font-size: 0.8em;
+        max-width: 8rem;
+    }
+
+}
+  
+@media screen and (min-width:576px) and (max-width:786px){
+    
+    .tentangSection{
+        padding: 5rem 1.5rem;
+    }
+
+
+}
+  
+@media screen and (min-width:786px) and (max-width:1024px){
+    
+    .tentangSection{
+        padding: 5rem 2rem;
+    }
+
+
+}
+  
+@media screen and (min-width:1024px) and (max-width:1200px){
+    
+    .tentangSection{
+        padding: 5rem 2rem;
+    }
+
+
+}

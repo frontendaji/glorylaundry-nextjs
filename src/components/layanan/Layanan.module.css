@@ -1,0 +1,96 @@
+.layananSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15rem 1rem;
+}
+
+.layananText{
+    max-width: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.layananText h1{
+    font-size: 3em;
+}
+
+.cardLayanan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.card{
+    max-width: 360px;
+    height: 246px;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card button{
+    width: 115px;
+    height: 35px;
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--background-color);
+    font-size: 0.7em;
+}
+
+@media screen and (max-width:576px){
+  
+    .layananSection{
+        padding: 5rem 1rem;
+    }
+
+    .layananText > h1{
+        font-size: 1.7em;
+    }
+
+    .layananText > p{
+        font-size: 0.8em;
+    }
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:786px){
+    
+    .layananSection{
+        padding: 5rem 1.5rem;
+    }
+
+
+}
+  
+@media screen and (min-width:786px) and (max-width:1024px){
+    
+    .layananSection{
+        padding: 5rem 2rem;
+    }
+
+
+}
+  
+@media screen and (min-width:1024px) and (max-width:1200px){
+    
+    .layananSection{
+        padding: 5rem 2rem;
+    }
+
+
+}
