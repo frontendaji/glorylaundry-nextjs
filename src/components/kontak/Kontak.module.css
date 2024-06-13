@@ -118,6 +118,18 @@
         width: 100%;
     }
 
+    .menu div{
+        align-items: center;
+    }
+
+    .menu div p{
+        font-size: 0.8em;
+    }
+
+    .right div p{
+        font-size: 0.8em;
+    }
+
 
 }
 

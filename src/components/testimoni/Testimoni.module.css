@@ -53,6 +53,14 @@
         padding: 2rem;
     }
 
+    .card p{
+        font-size: 0.8em;
+    }
+
+    .card h3{
+        font-size: 1em;
+    }
+
 
 }
 

@@ -65,6 +65,19 @@
         font-size: 0.8em;
     }
 
+    .card{
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .card h3{
+        font-size: 1em;
+    }
+
+    .card p{
+        font-size: 0.8em;
+    }
+
 
 }
 
